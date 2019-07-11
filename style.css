@@ -1,0 +1,21 @@
+body {
+	font-family: 'Lato', sans-serif, "M PLUS 1p";
+}
+
+.jumbotron-header {
+	height: 30rem;
+	background: url(header.jpg) center no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+.container-v-center {
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.icon {
+	width: 200px;
+	height: 200px;
+}
