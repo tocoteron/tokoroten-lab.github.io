@@ -1,3 +1,3 @@
-# Tokoroten Lab
+# Portfolio v2
 
-[https://tokoroten-lab.github.io/](https://tokoroten-lab.github.io/)
+![cat](./img/cat.svg)
