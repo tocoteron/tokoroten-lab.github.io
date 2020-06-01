@@ -134,7 +134,7 @@ a {
 }
 
 #contacts address a img {
-  height: 200px;
+  height: 150px;
 }
 
 #more .command {
@@ -200,13 +200,11 @@ html, body {
 }
 
 .section-wrapper.full {
-  height: calc(100vh - 32px * 2);
-  min-height: 800px;
+  min-height: calc(100vh - 32px * 2);
 }
 
 .section-wrapper.half {
-  height: calc(50vh - 32px * 2);
-  min-height: 400px;
+  min-height: calc(50vh - 32px * 2);
 }
 
 .section-wrapper.tile-dark {

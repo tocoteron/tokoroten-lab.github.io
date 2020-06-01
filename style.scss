@@ -136,7 +136,7 @@ a {
 
         a {
             img {
-                height: 200px;
+                height: 150px;
             }
         }
     }
@@ -204,7 +204,6 @@ html, body {
 $section_padding: 32px;
 $section_full_height: calc(100vh - #{$section_padding} * 2);
 $section_half_height: calc(50vh - #{$section_padding} * 2);
-$section_full_min_height: 800px;
 $section_half_min_height: 400px;
 .section-wrapper {
     font-size: 1.5rem;
@@ -212,13 +211,11 @@ $section_half_min_height: 400px;
     width: 100%;
 
     &.full {
-        height: $section_full_height;
-        min-height: $section_full_min_height;
+        min-height: $section_full_height;
     }
 
     &.half {
-        height: $section_half_height;
-        min-height: $section_half_min_height;
+        min-height: $section_half_height;
     }
 
     &.tile-dark {
